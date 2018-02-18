@@ -1,0 +1,6 @@
+MichMent_gcc is the stripped down c version of hte MichMent_cvode mex file
+MichMent_gcc_looped runs 10000 iterations in a loop and gives timing results 
+timing_results is the results from timeMM.m (mex timing)
+output_MichMent_gcc is integration output from the gcc compiled version of the mex file
+out contains timing results for 10000 iterations of the MM integration in C
+bng_gcc_error.txt is the error between bng and gcc output
