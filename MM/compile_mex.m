@@ -1,0 +1,1 @@
+mex -g -L/home/sag134/Sundials/sundials-2.6.2/instdir/lib -I/home/sag134/Sundials/sundials-2.6.2/instdir/include -lsundials_nvecserial -lsundials_cvode -lm MichMent_cvode.c
